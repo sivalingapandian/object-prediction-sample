@@ -1,0 +1,20 @@
+{
+  "name": "object-prediction-sample",
+  "displayName": "object-prediction-sample",
+  "expo": {
+    "name": "object-prediction-sample",
+   "slug": "object-prediction-sample",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "The app accesses your photos to run them through object detection"
+      }
+    ]
+  ]
+}
